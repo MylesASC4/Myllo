@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+    <script src="rapperClick.js"></script>
+    <script src="rAPI.js"></script>
+    <link rel="stylesheet" href="rapperio.css"></link>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!--Reference Client ID in meta tag here-->
+    <meta name="google-signin-client_id" content="586992843078-rrvbtuv5gc1vj24o7bqvh86n75546vev.apps.googleusercontent.com">
+
+
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--custom files-->
+    <script src="lib/js/main.js"></script>
+    <link rel="stylesheet" href="lib/css/style.css">
+</head>
+
+<body>
+    <center>
+        <h1>WELCOME TO RAPPER.IO</h1>
+        <h3>Log in to save your favorite Artists and songs</h3>
+        <div class="signs">
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        </div>
+    </center>
+    <div class='firstline'>
+        <div id='chance'>
+            <img width='200' height='150' src='http://www.aceshowbiz.com/images/news-medium/2016/10/chance-the-rapper-meet-chance-the-wrapper-halloween-kit-kat-ad.jpg'>
+        </div>
+        <div id='travis'>
+            <img width="150" height="200" src='https://s-media-cache-ak0.pinimg.com/736x/8e/fb/4a/8efb4aeef06671c899c9252a321dc91c--travis-scott.jpg'>
+        </div>
+        <div id='kendrick'>
+            <img height='200' src='http://cache.umusic.com/_sites/kendricklamar.com/images/og.jpg'>
+
+        </div>
+    </div>
+    <div id="Chano">
+
+        <audio controls="controls">
+            <!-- <source src="track.ogg" type="audio/ogg" /> -->
+            <source src="Juice.mp3" type="audio/mpeg" />
+
+        </audio>
+    </div>
+    <div id="Trav">
+
+        <audio controls="controls">
+            <!-- <source src="track.ogg" type="audio/ogg" /> -->
+            <source src="Goosebumps.mp3" type="audio/mpeg" />
+        </audio>
+    </div>
+    <div id="Kenny">
+        <audio controls="controls">
+            <!-- <source src="Humble.ogg" type="audio/ogg" /> -->
+            <source src="Humble.mp3" type="audio/mpeg" />
+
+        </audio>
+    </div>
+    <div class="signs">
+        <a href="#" class="signOut" onclick="onSignOut();">Sign out</a>
+
+
+    </div>
+
+</body>
+
+</html>

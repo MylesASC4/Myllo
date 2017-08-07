@@ -1,0 +1,29 @@
+    body {
+      text-align: center;
+      background: url("https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/16864814_1261424957279589_4149356934688127028_n.jpg?oh=3ec22da7ab716b1849a074179c43eda5&oe=59EC3ED0");
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-left: 50px;
+      margin-right: 500px;
+      color: white;
+      font-family: helvetica;
+    }
+
+    p {
+      font-size: 22px;
+    }
+
+    input {
+      position: center;
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+    .mugetsu{
+      position: 100 100;
+    }

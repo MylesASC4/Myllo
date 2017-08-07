@@ -1,0 +1,6 @@
+body {
+    background-color: #FDBB30
+}
+#ball{
+border-image-width: 20px 10px 20px 10px
+}
